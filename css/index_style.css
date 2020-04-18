@@ -1,0 +1,161 @@
+* {padding: 0; margin: 0; box-sizing: border-box; }
+body{
+    background-color: #fbfbfb;
+}
+/* nav */
+nav form .login-border {
+    border-right:2px solid #3B3970; 
+    margin-right: 10px;
+  }
+  /* nav end */
+/* bootsrap*/
+.btn-primary
+{
+    padding: 2px 1rem !important;
+    border-radius: 40px !important;
+    border: 0 !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn-primary:hover , .btn-primary:focus , .btn-primary:active
+{
+    border-color: #007bff !important;
+    background-color: #007bff !important;
+    box-shadow: 2px 7px 11px 0 rgba(0,0,0,0.23) !important
+}
+.btn-link 
+{
+    text-align: center;
+    text-decoration: none !important;
+}
+/* bootsrap*/
+/* nav*/
+.form-inline a {
+    margin: 0 10px 0 0;
+}
+/* nav end*/
+/*IncomingExam*/
+.ground{
+    background-color: #505763;;
+    width: auto;
+    height: auto;
+    color:white
+}
+.ground h2
+{
+    font-size: bold;
+}
+.imgexams{  
+    border: solid 2px white;
+    border-radius: 2%;
+}
+.incomingexams .container .Description:last-child 
+{
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #e3e1e1;
+} 
+/*IncomingExamEnd*/
+/*star rating */
+.checked {
+    color: orange;
+  }
+  /*star rating */
+/*current courses */
+.col-md-3:hover .courses .card 
+{
+    border:1px solid #007791;
+    transform: scale(1,1);
+    cursor: pointer;
+}
+.categories2 .container:last-child 
+{
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #e3e1e1;
+} 
+/*current courses End */
+/*current surveys */
+.member{
+    position: relative;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 2px 7px 11px 0 rgba(0,0,0,0.23);
+}
+.icon:hover
+{
+    border-radius: 50%;
+    box-shadow: 2px 7px 11px 0 rgba(0,0,0,0.23);
+}
+.caption
+{
+    background-color: rgba(42, 63, 85, .9);
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: all 2s;
+    overflow: visible;
+}
+.caption h4
+{
+    text-align: center;
+    font-size: bold;
+}
+.caption ul li 
+{
+    text-align: left;
+}
+.member:hover .caption{
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+.member:hover img{
+    transform: scale(1.2);
+    transition: transform 1s;
+    transition-delay: 1s;
+}
+.under-member p 
+{
+    text-align: justify !important;
+}
+.categories .container:last-child .row:first-child
+{
+    padding: 3rem 0 2rem !important
+}
+.categories .container:last-child .row:first-child .btn-primary
+{
+    box-shadow: 2px 7px 11px 0 rgba(0,0,0,0.23);
+}
+.categories .container:last-child 
+{
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #e3e1e1;
+} 
+.form 
+{
+    padding: 3rem !important;
+}
+/*current surveys End */
+/* scrollTop  */
+.btn-secondary{
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    z-index: 99999;
+    display: none;
+    padding: 5px 2rem !important;
+    border-radius: 40px !important;
+    border: 0 !important;
+}
+button a i {
+    color: white;
+
+}
+.btn-secondary:hover , .btn-secondary:focus , .btn-secondary:active
+{
+      box-shadow: 2px 7px 11px 0 rgba(0,0,0,0.23) !important
+}
+/* scrollTop  */
